@@ -34,7 +34,7 @@ export default async function handler(req, res) {
 
     const model = new ChatGoogleGenerativeAI({
       apiKey: process.env.GEMINI_API_KEY,
-      model: 'gemini-3-flash-pro',
+      model: 'gemini-3-flash-preview',
       temperature: 0,
     });
 
