@@ -3,9 +3,9 @@ import {
 	categoryPageMeta,
 	checkoutPageMeta,
 	fofPageMeta,
-} from './meta'
-import { meta } from './meta-types'
-import { capitalize } from '../utils/utilities'
+} from './meta.ts'
+import { meta } from './meta-types.ts'
+import { capitalize } from '../utils/utilities.ts'
 import { product } from './product-types.ts'
 
 export function getLandingPageMeta(): meta {

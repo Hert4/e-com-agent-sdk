@@ -1,3 +1,10 @@
+**This is a clone version of rauldotgit/E-Commerce-Store implement the web-agent-sdk package**
+
+GITHUB: https://github.com/rauldotgit/E-Commerce-Store
+AI model: gemini
+
+*This only the demo version so there are many issue not been fix yet*
+
 # VUE.JS E-Commerce Project - Mechanical Keyboard Store
 
 ## Table of contents

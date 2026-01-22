@@ -98,6 +98,8 @@ function hideHamburger(): void {
 				class="relative h-5 cursor-pointer"
 				@click="cartStore.cartOn()"
 				data-test="cart-button"
+				role="button"
+				tabindex="0"
 			>
 				<img
 					class="h-full hover:opacity-50 active:translate-y-0.5"

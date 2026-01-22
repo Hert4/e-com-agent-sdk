@@ -4,16 +4,23 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"node server.js\" \"vite\"",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@langchain/core": "^1.1.16",
+    "@langchain/google-genai": "^2.1.11",
     "@unhead/vue": "^1.7.4",
     "@vueuse/core": "^10.4.1",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.4",
+    "web-agent-sdk": "latest"
   },
   "devDependencies": {
     "@pinia/testing": "^0.1.3",

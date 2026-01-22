@@ -1,8 +1,8 @@
 import { RouteLocationNormalized, NavigationGuardNext } from 'vue-router'
 import { useSeoMeta } from '@unhead/vue'
 import { getProduct } from '../data/product-utils.ts'
-import { meta } from '../data/meta-types'
-import { getCategoryPageMeta, getProductPageMeta } from '../data/meta-utils'
+import { meta } from '../data/meta-types.ts'
+import { getCategoryPageMeta, getProductPageMeta } from '../data/meta-utils.ts'
 
 function parseRouteId(id: string | string[]): number {
 	if (Array.isArray(id)) return parseInt(id[0])

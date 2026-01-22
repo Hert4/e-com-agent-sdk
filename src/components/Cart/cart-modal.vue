@@ -40,6 +40,8 @@ const cartStore = useCartStore()
 						@click="cartStore.clearCart()"
 						class="cursor-pointer text-k-dark-grey underline opacity-70 transition hover:opacity-100 active:translate-y-0.5"
 						data-test="cart-delete-all"
+						role="button"
+						tabindex="0"
 					>
 						Delete All
 					</p>
