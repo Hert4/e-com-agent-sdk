@@ -20,7 +20,7 @@
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
-    "web-agent-sdk": "latest"
+    "web-agent-sdk": "^1.0.5"
   },
   "devDependencies": {
     "@pinia/testing": "^0.1.3",
